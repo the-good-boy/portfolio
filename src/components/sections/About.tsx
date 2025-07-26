@@ -1,5 +1,4 @@
 import { Card } from "@/components/ui/card"
-import Link from "next/link"
 
 export default function About() {
   return (
@@ -11,7 +10,7 @@ export default function About() {
           <div className="text-green">
             <ul className="flex flex-col gap-2">
             <li>💼 I am currently a Software Engineer at <span className="text-blue">JPMorganChase</span> in the GFICC Portfolio Management Team</li>
-              <li>🐝 I hold a Bachelor's degree in Electrical Engineering from <span className="text-blue">IIT (BHU), Varanasi</span></li>
+              <li>🐝 I hold a Bachelor&apos;s degree in Electrical Engineering from <span className="text-blue">IIT (BHU), Varanasi</span></li>
               <li>🍀 I have a keen interest in <span className="text-blue">Open Source</span>, <span className="text-blue">Web Development</span>, <span className="text-blue">Competitive Programming</span>, and <span className="text-blue">Natural Language Processing</span></li>
               <li>🚀 I’m currently learning <span className="text-blue">Distributed Systems</span>, <span className="text-blue">Databases</span>, and <span className="text-blue">Golang</span></li>            </ul>
           </div>
