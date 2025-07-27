@@ -14,7 +14,7 @@ export default async function BlogPage() {
           ~/blog
         </h1>
         <div className="h-full flex flex-col gap-3">
-          {posts.map((post) => (
+          {posts.filter(post => post?.id).map((post) => (
             <BlogCard key={post.id} post={post} />
           ))}
         </div>
