@@ -31,7 +31,7 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
 export async function generateStaticParams() {
   const posts = getAllPosts();
 
-  return posts.map((post) => ({
+  return posts.filter(post => post?.id).map((post) => ({
     slug: post.id,
   }));
 }
