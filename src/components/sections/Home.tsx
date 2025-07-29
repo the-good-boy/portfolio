@@ -1,4 +1,4 @@
-import { ChartNoAxesColumn, ChefHat, Code, Code2, Github, Linkedin, Youtube } from "lucide-react"
+import { ChartNoAxesColumn, ChefHat, Github, Linkedin, Youtube } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Projects from "@/components/sections/Projects"
