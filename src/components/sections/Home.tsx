@@ -1,4 +1,4 @@
-import { Github, Linkedin, Youtube } from "lucide-react"
+import { ChartNoAxesColumn, ChefHat, Code, Code2, Github, Linkedin, Youtube } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Projects from "@/components/sections/Projects"
@@ -20,6 +20,16 @@ export default function Home() {
       title: "YouTube",
       href: "",
       icon: <Youtube className="w-4 h-4"/>
+    },
+    {
+      title: "Codechef",
+      href: "https://www.codechef.com/users/dj_billa",
+      icon: <ChefHat className="w-4 h-4"/>
+    },
+    {
+      title: "Codeforces",
+      href: "https://codeforces.com/profile/cosmere",
+      icon: <ChartNoAxesColumn className="w-4 h-4"/>
     }
   ]
 
